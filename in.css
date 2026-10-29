@@ -1,0 +1,20 @@
+body {
+  background-image: url(inw.jpg);
+  background-size: cover;          /* لكي تغطي الصورة كامل المساحة بغض النظر عن حجم الشاشة */
+  background-repeat: no-repeat;    /* لمنع تكرار الصورة */
+  background-position: center;     /* لتوسيط الصورة في منتصف الشاشة تماماً */
+  background-attachment: fixed;    /* لثبات الخلفية حتى عند التمرير (Scroll) */
+  height: 100vh;                   /* لضمان أن الـ body يأخذ ارتفاع الشاشة بالكامل */
+  margin: 0;                       /* لإزالة أي هوامش افتراضية من المتصفح */
+}
+h1 {font-size: 150px;
+text-align: center;}
+.e {background-image: linear-gradient(red ,blue);
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  text-align: center; /* لتوسيط النص داخل الـ input */
+  
+  display: block;     /* تحويله لعنصر كتلوي */
+  margin: 0 auto;    /* توسيط المربع نفسه أفقياً */
+}

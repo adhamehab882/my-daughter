@@ -1,0 +1,27 @@
+h1 {font-size: 150px;
+text-align: center ;
+}
+body {
+  background-image: linear-gradient(to bottom, red, transparent);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+div {
+  background-image: url(we.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+div:hover {  background-image: url(wx.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 550px;
+  display: block;
+  margin: 0 auto;}
